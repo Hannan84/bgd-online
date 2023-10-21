@@ -97,6 +97,8 @@
 }
 .navbar-brand{
     margin-top: 20px;
+    margin-right: 0;
+    padding-top: 0;
 }
 .navbar .navbar-brand img{
     max-width: 50%;
@@ -117,7 +119,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-secondary) !important;
+    color: red !important;
 }
 
 .navbar .dropdown-toggle::after {
@@ -173,6 +175,43 @@
 }
 /*** Navbar End ***/
 
+/*** hero slider start ***/
+
+.hero_slider_bg {
+    height: 350px;
+    background: #26a65b;
+}
+.hero_text{
+    color: #fff;
+    padding-top: 140px;
+}
+
+.hero_text .hero_btn {
+    border: 1px solid #fff;
+    width: 170px;
+    margin-top: 12px;
+}
+
+.common_btn{
+    display: inline-block;
+    width: 180px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+    background: #26a65b;
+    overflow: hidden;
+}
+
+.common_btn, .hvr-rectangle-out{
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+/*** hero slider end ***/
 
 /*** Carousel Start ***/
 

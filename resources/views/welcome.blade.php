@@ -67,7 +67,7 @@
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
                             <a href="index.html" class="nav-item nav-link active text-secondary">HOME</a>
                             <div class="nav-item dropdown">
-                                <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ABOUT US</a>
+                                <a href="about.html" class="nav-link" data-bs-toggle="dropdown">ABOUT US</a>
                                 <div class="dropdown-menu rounded">
                                     <a href="blog.html" class="dropdown-item"><i class="arrow-right"></i>Our Blog</a>
                                     <a href="team.html" class="dropdown-item"><i class="arrow-right"></i>Our Team</a>
@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                             <div class="nav-item dropdown">
-                                <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVICES</a>
+                                <a href="about.html" class="nav-link" data-bs-toggle="dropdown">SERVICES</a>
                                 <div class="dropdown-menu mega-menu rounded">
                                     <div class="row">
                                         <div class="col v-line">
@@ -122,17 +122,93 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="project.html" class="nav-item nav-link">PRODUCTS</a>
-                            <a href="contact.html" class="nav-item nav-link">SOLUTIONS</a>
-                            <a href="contact.html" class="nav-item nav-link">BLOG</a>
+                            <div class="nav-item dropdown">
+                                <a href="about.html" class="nav-link" data-bs-toggle="dropdown">PRODUCTS</a>
+                                <div class="dropdown-menu mega-menu rounded">
+                                    <div class="row">
+                                        <div class="col v-line">
+                                            <span style="color:red; font-weight: 700;"><i class="arrow-right"></i>Camera</span>
+                                            <a href="blog.html" class="dropdown-item"><i class="arrow-right"></i>CC Camera</a>
+                                            <a href="team.html" class="dropdown-item"><i class="arrow-right"></i>IP Camera</a>
+                                        </div>
+                                        <div class="col v-line">
+                                            <span style="color:red; font-weight: 700;"><i class="arrow-right"></i>Network Products</span>
+                                            <a href="blog.html" class="dropdown-item"><i class="arrow-right"></i>Router</a>
+                                            <a href="team.html" class="dropdown-item"><i class="arrow-right"></i>Switch</a>
+                                            <a href="testimonial.html" class="dropdown-item"><i class="arrow-right"></i>TJ Box</a>
+                                            <a href="404.html" class="dropdown-item"><i class="arrow-right"></i>Fiber Optic Cable</a>
+                                            <a href="404.html" class="dropdown-item"><i class="arrow-right"></i>UTP Cable</a>
+                                        </div>
+                                        <div class="col">
+                                            <span style="color:red; font-weight: 700;"><i class="arrow-right"></i>Radio Station</span>
+                                            <a href="blog.html" class="dropdown-item"><i class="arrow-right"></i>Radio Station</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="about.html" class="nav-link" data-bs-toggle="dropdown">SOLUTIONS</a>
+                                <div class="dropdown-menu mega-menu rounded">
+                                    <div class="row">
+                                        <div class="col v-line">
+                                            <span style="color:red; font-weight: 700;"><i class="arrow-right"></i>Enterprize</span>
+                                            <a href="blog.html" class="dropdown-item"><i class="arrow-right"></i>Networks</a>
+                                            <a href="team.html" class="dropdown-item"><i class="arrow-right"></i>IP- VPN</a>
+                                            <a href="team.html" class="dropdown-item"><i class="arrow-right"></i>Hosting</a>
+                                            <a href="team.html" class="dropdown-item"><i class="arrow-right"></i>Co- location</a>
+                                        </div>
+                                        <div class="col v-line">
+                                            <span style="color:red; font-weight: 700;"><i class="arrow-right"></i>System Integration</span>
+                                            <a href="blog.html" class="dropdown-item"><i class="arrow-right"></i>ICT Consultancy</a>
+                                            <a href="team.html" class="dropdown-item"><i class="arrow-right"></i>Customized Solution</a>
+                                            <a href="testimonial.html" class="dropdown-item"><i class="arrow-right"></i>Training</a>
+                                        </div>
+                                        <div class="col">
+                                            <span style="color:red; font-weight: 700;"><i class="arrow-right"></i>IP Phone</span>
+                                            <a href="blog.html" class="dropdown-item"><i class="arrow-right"></i>IPPBX</a>
+                                            <a href="blog.html" class="dropdown-item"><i class="arrow-right"></i>Call Center</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link" style="color:red; font-weight: 700;">CLIENT LOGIN</a>
+                            <a href="contact.html" class="nav-item nav-link" style="color:red;">BLOG</a>
                             <a href="contact.html" class="nav-item nav-link">CONTACT US</a>
-                            <a href="contact.html" class="nav-item nav-link">CLIENT LOGIN</a>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
         <!-- Navbar End -->
+
+        <!-- Hero slider start -->
+
+        <section>
+            <div class="hero_slider">
+                <div class="hero_slider_bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="hero_text">
+                                    <h1 style="color:#FFF">Data Connectivity</h1>
+                                    <p><p>Fast &amp; Secure Data Connection.</p></p>
+                                    <div class="hero_btn common_btn hvr-rectangle-out"> <a href="#" style="color:#FFF">Get start now</a> </div>
+                                </div>
+                            </div>
+                            <!-- column End -->
+                            <div class="col-md-5 col-md-offset-1 col-sm-6 col-xs-12">
+                                <div class="romana_hero_img"> <img width="453" height="339" src="https://bgdonline.net/wp-content/uploads/2017/03/dataconnectivity-453x339.png" class="attachment-home-full-size size-home-full-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://bgdonline.net/wp-content/uploads/2017/03/dataconnectivity.png 453w, https://bgdonline.net/wp-content/uploads/2017/03/dataconnectivity-300x225.png 300w" sizes="(max-width: 453px) 100vw, 453px" /> </div>
+                            </div>
+                            <!-- column end -->
+                        </div>
+                        <!-- row end -->
+                    </div>
+                    <!-- container end -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero slider end -->
 
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
